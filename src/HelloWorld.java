@@ -7,8 +7,9 @@ public class HelloWorld {
 		int b = 20;
 
 		int Sum = a + b;
+		int Sub = a - b;
 
-		System.out.println(Sum);
+		System.out.println(Sum + Sub);
 
 	}
 
