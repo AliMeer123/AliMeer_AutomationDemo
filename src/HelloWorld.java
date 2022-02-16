@@ -1,17 +1,23 @@
 
 public class HelloWorld {
 
+	static void Sum(int a, int b) {
+		int result = a + b;
+		System.out.println(result);
+	}
+
+	static void Sub(int a, int b) {
+
+		int result = a - b;
+		System.out.println(result);
+
+	}
+
 	public static void main(String[] args) {
 
-		int a = 10;
-		int b = 20;
-
-		int Sum = a + b;
-		int Sub = a - b;
-
-		System.out.println(Sum + Sub);
+		Sum(10, 05);
+		Sub(50, 25);
 
 	}
 
 }
- 
